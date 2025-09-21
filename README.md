@@ -2,21 +2,22 @@
 Contains documentation and setup files for my home media PC.
 
 ## The Hardware
+[Beelink SER8 Mini PC](https://www.bee-link.com/products/beelink-ser8-8745hs?variant=46991244722418)
 
-I'm using: 
-Beelink SER8 Mini PC
-AMD Ryzen 7 8745HS
-AMD Radeon 780M iGPU
-32 GB DDR5 RAM
-1 TB SSD
+* AMD Ryzen 7 8745HS
+* AMD Radeon 780M iGPU
+* 32 GB DDR5 RAM
+* 1 TB SSD
 
-If you're planning on gaming get a higher end mini-PC, otherwise you probably don't need to and can get a good mini PC that would be sufficient for around $200-$300
+If you're planning on using your mini PC for gaming get a higher model with a good iGPU, otherwise you can get a good mini PC that would be sufficient for most of what you want to do for around $200-$300
 
 ## Operating System - Windows (Linux coming later...)
-Try with Windows first
-Try with a Linux OS ideal for media and/or gaming
-Dual-boot?
-Compare gaming performance
+Windows 11
+
+ToDo:
+* Try with a Linux OS ideal for media and/or gaming
+* Dual-boot?
+* Compare gaming performance
 
 ### Windows Setup
 Initial win setup - may want to not set a password when creating a user. Or better would be to create a new user with limited permissions that doesn't need password
@@ -33,19 +34,11 @@ Screen timeout
 Device sleep
 Power mode? May want to change this according to needs
 
-#### Add Programs to Launch at Startup
-📺 Bonus: Auto-Start Media Mode on Boot (Windows)
-Press Win+R, type shell:startup, hit Enter
+#### Add Startup Programs
+To add programs that you want to launch when Windows starts: Press Win+R, type shell:startup, hit Enter
 
 ## Brave
 Brave is what we primarily use to access streaming and other sites due to it's superior ad blocking and ease-of-use. I don't actually know if we lose much in the form of picture or audio quality compared to using the native desktop apps, but something to look into
-
-On desktop create a folder names "Streaming Sites"
-Create shortcuts for all of the streaming sites - click and drag from the dots to the left of the website address to the desktop
-Place Brave shortcuts for your streaming sites on your desktop in a folder named "Media Center" (or whatever you want).
-Create good icons for the shorcuts, see: icons folder 
-
-Using the steps listed above to "Add Programs to Launch at Startup" add a shortcut to this folder in the startup folder and the folder will be opened automatically when your Mini PC starts
 
 Inside Brave:
  * F11 to go full screen
@@ -54,6 +47,15 @@ Inside Brave:
 Show bookmarks toolbar - ctrl+shift+b
 Import bookmarks - can export from my env first. this repo has bookmarks included you can import
 Create a bookmarks folder for streaming or other sites
+
+### Desktop Shortcuts
+Create Windows Desktop shortcuts to take you directly to the streaming sites in the Brave browser:
+1. On desktop create a folder names "Streaming Sites"
+2. Create shortcuts for all of the streaming sites - click and drag from the dots to the left of the website address to the desktop
+3. Place Brave shortcuts for your streaming sites on your desktop in a folder named "Media Center" (or whatever you want).
+4. Add good icons for the shorcuts, see: icons folder 
+
+Using the steps listed above to in section: [Add Startup Programs](#startup-programs) to add a shortcut to this folder in the startup folder and the folder will be opened automatically when your Mini PC starts
 
 ## Best Apps & Websites for streaming Free TV
 Tubi
@@ -99,7 +101,8 @@ Audio?
 
 Resolution and image quality differences?
 
-Running LLMs locally?! Not really related to being a media center
+Development and Running LLMs locally?! Not really related to being a media center
+
 Other cool things you can do with your mini PC
 
 
