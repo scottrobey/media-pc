@@ -1,7 +1,17 @@
 # media-pc
 Contains documentation and setup files for my home media PC.
 
+## The Hardware
+
+I'm using: 
+
+If you're planning on gaming get a higher end mini-PC, otherwise you probably don't need to and can get a good mini PC that would be sufficient for around $200-$300
+
 ## Operating System - Windows (Linux coming later...)
+Try with Windows first
+Try with a Linux OS ideal for media and/or gaming
+Dual-boot?
+Compare gaming performance
 
 ### Windows Setup
 Initial win setup - may want to not set a password when creating a user. Or better would be to create a new user with limited permissions that doesn't need password
@@ -57,3 +67,41 @@ Where to watch sports and live TV? CBS / NBC / ABC websites?
 What new games can we expect to play?
 
 Retro gaming!
+
+## Remote
+Air mouse 1st
+
+Bluetooth keyboard with built-in mouse as a back up
+
+How to administer remotely Windows remote setup 
+
+
+## TODO
+
+
+ * Setup GitHub repo for this - public
+ * Add icons to GitHub
+ * Add bookmarks
+ * Maybe a setup script?
+     * This would be easier in Linux using CM tool to install and configure various apps
+
+
+...Later
+
+Network Setup - ethernet obviously preferred but not required?
+
+Plex Server?? Accessing when off the network?
+
+DVR?
+
+Audio?
+
+Resolution and image quality differences?
+
+Running LLMs locally?! Not really related to being a media center
+Other cool things you can do with your mini PC
+
+
+## Setup an AI Assistant
+How can we leverage an AI assistant to make media player experience better?
+At a minimum, an LLM can help answer questions you have about setting up your PC to be a media center, and also has some good ideas for cool things you can do. Interesting prompts: ToDo
