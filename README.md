@@ -11,6 +11,8 @@ Contains documentation and setup files useful for creating a home media PC
 
 If you're planning on using your mini PC for gaming get a higher model with a good iGPU, otherwise you can get a good mini PC that would be sufficient for most of what you want to do for around $200-$300
 
+Where to put the mini PC - next to the main TV you plan to use it from
+
 ## Operating System - Windows (Linux coming later...)
 Windows 11
 
@@ -36,8 +38,11 @@ Power mode? May want to change this according to needs
 
 What did I do personally?
 
-#### Add Startup Programs
+### Add Startup Programs
 To add programs that you want to launch when Windows starts: Press Win+R, type shell:startup, hit Enter
+
+### Networking
+Make the PC discoverable on your LAN
 
 ## Brave
 Brave is what we primarily use to access streaming and other sites due to it's superior ad blocking and ease-of-use. I don't actually know if we lose much in the form of picture or audio quality compared to using the native desktop apps, but something to look into
