@@ -1,5 +1,5 @@
 # media-pc
-Contains documentation and setup files for my home media PC.
+Contains documentation and setup files useful for creating a home media PC
 
 ## The Hardware
 [Beelink SER8 Mini PC](https://www.bee-link.com/products/beelink-ser8-8745hs?variant=46991244722418)
