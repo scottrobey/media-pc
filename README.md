@@ -19,13 +19,13 @@ ToDo:
 * Dual-boot?
 * Compare gaming performance
 
-### Windows Setup
-Initial win setup - may want to not set a password when creating a user. Or better would be to create a new user with limited permissions that doesn't need password
+## Windows Setup
+Initial windows setup - may want to not set a password when creating a user. Or better would be to create a new user with limited permissions that doesn't need password
 
-1. Install Brave browser
-   a. screen shot
-2. Disable windows lock screen
-   a. screen shot
+Leave the current user as-is, it will be used as the administrator account for configuring the system and installing programs. Then create a new user for the media center stuff and limit permissions. Don't set a password so that logging in at startup is not required
+
+1. Install Brave browser - screen shot? not really necessary
+2. Disable windows lock screen - screen shot
 
 For Windows 10 Pro, Enterprise, or Education, you can use the Local Group Policy Editor. Press Win + R, type gpedit.msc, and press Enter. Navigate to Computer Configuration > Administrative Templates > Control Panel > Personalization. Double-click on "Do not display the lock screen," set it to "Enabled," and click OK. This will disable the lock screen on startup and reboot.
 
@@ -33,6 +33,8 @@ For Windows 10 Pro, Enterprise, or Education, you can use the Local Group Policy
 Screen timeout
 Device sleep
 Power mode? May want to change this according to needs
+
+What did I do personally?
 
 #### Add Startup Programs
 To add programs that you want to launch when Windows starts: Press Win+R, type shell:startup, hit Enter
